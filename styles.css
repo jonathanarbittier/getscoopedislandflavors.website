@@ -1066,62 +1066,6 @@ h3 {
   background: var(--coral);
 }
 
-.pre-footer-cta {
-  border-top: 1px solid rgba(45, 33, 24, 0.1);
-  background:
-    linear-gradient(135deg, rgba(255, 214, 66, 0.18), rgba(255, 250, 240, 0.86)),
-    var(--cream-soft);
-}
-
-.pre-footer-shell {
-  width: min(1160px, calc(100% - 32px));
-  margin: 0 auto;
-  padding: 24px 0;
-  display: grid;
-  gap: 18px;
-  align-items: center;
-}
-
-.pre-footer-copy {
-  text-align: center;
-}
-
-.pre-footer-copy h2 {
-  margin: 0 0 4px;
-  color: var(--ink);
-  font-size: 1.45rem;
-  line-height: 1.05;
-}
-
-.pre-footer-copy p {
-  margin: 0;
-  color: var(--muted);
-  font-weight: 800;
-}
-
-.pre-footer-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 50px;
-  width: 100%;
-  gap: 8px;
-  padding: 13px 22px;
-  border-radius: 999px;
-  background: var(--ink);
-  color: var(--cream-soft);
-  box-shadow: 0 12px 24px rgba(45, 33, 24, 0.22);
-  font-weight: 900;
-  line-height: 1;
-  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
-}
-
-.pre-footer-button:hover {
-  background: var(--tamarind);
-  transform: translateY(-2px);
-  box-shadow: 0 16px 28px rgba(45, 33, 24, 0.18);
-}
-
 .site-footer {
   background:
     radial-gradient(circle at 12% 0%, rgba(143, 74, 33, 0.34) 0 220px, transparent 222px),
@@ -1344,24 +1288,8 @@ h3 {
     grid-column: span 2;
   }
 
-  .pre-footer-shell,
   .footer-shell {
     width: min(1160px, calc(100% - 48px));
-  }
-
-  .pre-footer-shell {
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 24px;
-    padding: 28px 0;
-  }
-
-  .pre-footer-copy {
-    text-align: left;
-  }
-
-  .pre-footer-button {
-    width: auto;
-    justify-self: end;
   }
 
   .footer-main {
@@ -1719,7 +1647,7 @@ h3 {
 
   .hero-main-image {
     top: 20px;
-    right: 52px;
+    right: 34px;
     width: 215px;
     max-width: 90%;
     height: 326px;
