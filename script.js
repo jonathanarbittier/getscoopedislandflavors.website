@@ -31,7 +31,13 @@ if (navToggle && navPanel) {
 }
 
 navLinks.forEach((link) => {
-  link.addEventListener("click", closeMenu);
+  link.addEventListener("click", (event) => {
+    if (link.hasAttribute("data-nav-static")) {
+      event.preventDefault();
+    }
+
+    closeMenu();
+  });
 });
 
 document.addEventListener("keydown", (event) => {
