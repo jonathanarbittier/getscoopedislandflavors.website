@@ -2474,8 +2474,8 @@ h3 {
 
   .hero-option-decor-mobile-fruit {
     display: block;
-    left: -14px;
-    bottom: -2px;
+    left: -34px;
+    bottom: -14px;
     width: 148px;
     opacity: 0.88;
     transform: rotate(-4deg);
@@ -2523,8 +2523,8 @@ h3 {
   }
 
   .hero-option-decor-mobile-fruit {
-    left: -12px;
-    bottom: 2px;
+    left: -28px;
+    bottom: -8px;
     width: 126px;
     opacity: 0.82;
   }
