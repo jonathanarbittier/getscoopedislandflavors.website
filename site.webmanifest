@@ -1,0 +1,17 @@
+{
+  "name": "Get Scooped Island Flavors",
+  "short_name": "Get Scooped",
+  "description": "Caribbean-inspired frozen treats, mango power bowls, island mocktails, pop-ups, and catering in the Atlanta area.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff7df",
+  "theme_color": "#095f62",
+  "icons": [
+    {
+      "src": "/images/scoopedlogo10-cropped.png",
+      "sizes": "1083x800",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
