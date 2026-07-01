@@ -2077,7 +2077,7 @@ h3 {
   .hero-benefits,
   .hero-description,
   .hero-copy-brand .hero-actions {
-    transform: translateX(14px);
+    transform: none;
   }
 
   .product-grid {
@@ -2204,7 +2204,7 @@ h3 {
     gap: 6px 8px;
     font-size: 0.76rem;
     text-align: center;
-    transform: translateX(18px);
+    transform: none;
   }
 
   .hero-description {
@@ -2215,7 +2215,7 @@ h3 {
     font-size: 0.9rem;
     line-height: 1.55;
     text-align: center;
-    transform: translateX(18px);
+    transform: none;
   }
 
   h1 {
@@ -2303,7 +2303,7 @@ h3 {
     width: min(100%, 330px);
     max-width: calc(100% - 40px);
     margin: 30px auto 0;
-    transform: translateX(18px);
+    transform: none;
   }
 
   .product-menu-shell {
