@@ -2464,14 +2464,14 @@ h3 {
 
   .hero-card-scoops {
     left: 62px;
-    bottom: -42px;
+    bottom: -18px;
     width: 126px;
     height: 190px;
   }
 
   .hero-founder-caption {
     left: 50px;
-    bottom: -54px;
+    bottom: -30px;
     min-height: 28px;
     padding: 6px 10px;
     font-size: 0.66rem;
@@ -2539,12 +2539,12 @@ h3 {
 
 @media (max-width: 380px) {
   .hero-card-scoops {
-    bottom: -40px;
+    bottom: -16px;
   }
 
   .hero-founder-caption {
     left: 44px;
-    bottom: -52px;
+    bottom: -28px;
     padding-inline: 9px;
     font-size: 0.62rem;
   }
