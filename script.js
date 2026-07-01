@@ -31,11 +31,7 @@ if (navToggle && navPanel) {
 }
 
 navLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    if (link.hasAttribute("data-nav-static")) {
-      event.preventDefault();
-    }
-
+  link.addEventListener("click", () => {
     closeMenu();
   });
 });

@@ -523,18 +523,40 @@ h3 {
 }
 
 .hero-card-scoops {
-  left: 72px;
-  bottom: 10px;
+  left: 104px;
+  bottom: -18px;
   z-index: 6;
-  width: 315px;
-  height: 250px;
-  object-position: center center;
+  width: 220px;
+  height: 330px;
+  object-position: center 38%;
   box-shadow: 0 24px 45px rgba(52, 35, 23, 0.26);
   transform: rotate(5deg);
 }
 
 .hero-card-scoops:hover {
   transform: translateY(-4px) rotate(5deg);
+}
+
+.hero-founder-caption {
+  position: absolute;
+  left: 124px;
+  bottom: -34px;
+  z-index: 7;
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--sun);
+  color: var(--teal-dark);
+  box-shadow: 4px 4px 0 rgba(255, 102, 120, 0.38);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  transform: rotate(3deg);
+  pointer-events: none;
 }
 
 .hero-decor {
@@ -669,7 +691,7 @@ h3 {
 .pickup-address::before {
   content: "";
   position: absolute;
-  top: 0.72em;
+  top: 0.48em;
   left: 0;
   width: 9px;
   height: 9px;
@@ -1906,9 +1928,14 @@ h3 {
   }
 
   .hero-card-scoops {
-    left: 76px;
-    width: 330px;
-    height: 260px;
+    left: 110px;
+    width: 232px;
+    height: 350px;
+  }
+
+  .hero-founder-caption {
+    left: 132px;
+    bottom: -36px;
   }
 
   .hero-decor-leaf-top {
@@ -2023,10 +2050,16 @@ h3 {
   }
 
   .hero-card-scoops {
-    left: 58px;
-    bottom: 8px;
-    width: 290px;
-    height: 230px;
+    left: 94px;
+    bottom: -48px;
+    width: 202px;
+    height: 304px;
+  }
+
+  .hero-founder-caption {
+    left: 116px;
+    bottom: -66px;
+    font-size: 0.74rem;
   }
 
   .hero-benefits,
@@ -2430,10 +2463,19 @@ h3 {
   }
 
   .hero-card-scoops {
-    left: 28px;
-    bottom: 8px;
-    width: 190px;
-    height: 150px;
+    left: 62px;
+    bottom: -68px;
+    width: 126px;
+    height: 190px;
+  }
+
+  .hero-founder-caption {
+    left: 50px;
+    bottom: -80px;
+    min-height: 28px;
+    padding: 6px 10px;
+    font-size: 0.66rem;
+    box-shadow: 3px 3px 0 rgba(255, 102, 120, 0.34);
   }
 
   .hero-decor-leaf-top {
@@ -2496,6 +2538,17 @@ h3 {
 }
 
 @media (max-width: 380px) {
+  .hero-card-scoops {
+    bottom: -64px;
+  }
+
+  .hero-founder-caption {
+    left: 44px;
+    bottom: -76px;
+    padding-inline: 9px;
+    font-size: 0.62rem;
+  }
+
   .hero-option-decor-palm {
     display: none;
   }
