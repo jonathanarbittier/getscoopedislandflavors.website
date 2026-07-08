@@ -1716,6 +1716,16 @@ h3 {
   margin: 0;
 }
 
+.footer-bottom a {
+  color: var(--sun);
+  font-weight: 800;
+  transition: color 180ms ease;
+}
+
+.footer-bottom a:hover {
+  color: var(--coral);
+}
+
 .reveal-ready [data-reveal] {
   opacity: 1;
   transform: translateY(12px);
@@ -1882,15 +1892,16 @@ h3 {
   }
 
   .footer-bottom {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: center;
   }
 
-  .footer-bottom p:nth-child(2) {
+  .footer-bottom p:nth-child(2),
+  .footer-bottom p:nth-child(3) {
     text-align: center;
   }
 
-  .footer-bottom p:nth-child(3) {
+  .footer-bottom p:nth-child(4) {
     text-align: right;
   }
 }
